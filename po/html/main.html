@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/nav.css">
+<link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back"></div>
+  <div>
+<!-- 제일 윗 상단 -->
+      <nav class="main-nav">
+          <button class="back1"><i class="fas fa-angle-left"></i></button>
+          <span class="title">oo사이트에 오신걸 환영합니다</span>
+          <div id="hamburger-wrapper">
+              <span id="hamburger"><i class="fas fa-bars"></i></span>
+          </div>
+      </nav>
+
+<!-- 네비게이션 바 -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="./main.html">
+                  <img src="../img/main.png" alt="logo" style="width:40px;">
+                </a>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">공지 사항</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">이벤트</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">아이템</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">자유 게시판</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">사고 팝니다</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">tip</a>
+                    </li>
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            서버 게시판
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">ㅇㅇ</a>
+                          <a class="dropdown-item" href="#">ㄱㄱ</a>
+                          <a class="dropdown-item" href="#">ㄴㄴ</a>
+                        </div>
+                      </div>
+                  <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            던전 정보
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">초급</a>
+                          <a class="dropdown-item" href="#">중급</a>
+                          <a class="dropdown-item" href="#">고급</a>
+                        </div>
+                      </div>
+                    <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                직업게시판
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">마법사</a>
+                              <a class="dropdown-item" href="#">전사</a>
+                              <a class="dropdown-item" href="#">궁수</a>
+                            </div>
+                          </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            퀘스트
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">메인 퀘스트</a>
+                          <a class="dropdown-item" href="#">초급</a>
+                          <a class="dropdown-item" href="#">중급</a>
+                          <a class="dropdown-item" href="#">고급</a>
+                        </div>
+                      </div>
+                </ul>
+  </div>
+
+
+<!-- 햄버거바 -->
+    <nav id="sidenav">
+        <header><span id="close-sidenav">&times;</span></header>
+        <input type="text" value="아이디" style="margin: 3px">
+        <input type="text" value="비밀번호" style="margin: 2px">
+        <input type="button" value="로그인" style="margin: 2px;">
+        <ul>
+            <li><a href="#">마이 페이지
+                <span class="arrows"><i class="fas fa-angle-right "></i></span></a>
+            </li>
+            <li><a href="#">
+                <span class="arrows"><i class="fas fa-angle-right "></i></span></a>
+            </li>
+            <li><a href="#">
+                <span class="arrows"><i class="fas fa-angle-right "></i></span></a>
+            </li>
+            <li><a href="#">
+                <span class="arrows"><i class="fas fa-angle-right "></i></span></a>
+            </li>
+            <li><a href="#">
+                <span class="arrows"><i class="fas fa-angle-right "></i></span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+<!-- 본문 -->
+
+  
+    <div class="container">
+      
+         <div id="demo" class="carousel slide" data-ride="carousel" style="margin: 4px;"
+         >
+        
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/제목 없음.png" alt="Los Angeles" width="740" height="150">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/제목없음 2.png" alt="Chicago"  width="740" height="150">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/제목 없음3.png" alt="New York"  width="740" height="150">
+                  </div>
+                
+                </div>
+                
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+
+            
+    </div>
+
+
+
+    
+    <script src="../js/pagle.js"></script>
+</body>
+</html>
