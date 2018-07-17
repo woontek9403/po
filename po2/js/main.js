@@ -44,21 +44,29 @@ $('.cpu').mouseleave(function(e) {
   jQuery( ".cpu" ).animate({right: '-300px'}, 300 );
 }); 
 
-
-// 본체
-$('.btn6').click(function(e) { 
-  jQuery( ".case" ).animate({right : 0}, 300 ); 
-});
-$('.case').mouseleave(function(e) {
-  jQuery( ".case" ).animate({right: '-300px'}, 300 );
-});
-
-
 // 메인보드
-$('.btn7').click(function(e) { 
+$('.btn6').click(function(e) { 
   jQuery( ".board" ).animate({right : 0}, 300 ); 
 }); 
 $('.board').mouseleave(function(e) {
   jQuery( ".board" ).animate({right: '-300px'}, 300 );
 }); 
 
+// 기타
+$('.btn7').click(function(e) { 
+  jQuery( ".gita" ).animate({right : 0}, 300 ); 
+});
+$('.gita').mouseleave(function(e) {
+  jQuery( ".gita" ).animate({right: '-300px'}, 300 );
+});
+
+// 견적 
+$('.btn8').click(function(e) { 
+  jQuery( ".inquire" ).animate({right : 0}, 300 ); 
+});
+$('.inquire').mouseleave(function(e) {
+  jQuery( ".inquire" ).animate({right: '-300px'}, 300 );
+});
+
+
+$(".container div a").css("color", "black");
